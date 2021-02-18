@@ -1,0 +1,78 @@
+* {
+	margin: 0;
+	font-family: sans-serif;
+}
+
+.container {
+	height: 450px;
+	width: 500pt;
+}
+
+header {
+	height: 100px;
+	background-color: blue;
+	margin: 0;
+	display: flex;
+}
+
+.atas {
+	margin: 20px;
+}
+
+.atas h1 {
+	color: yellow;
+}
+
+.atas p {
+	color: white;
+}
+
+.tengah {
+	display: flex;
+	margin: 10px 0;
+}
+
+.kiri {
+	border-style: dashed;
+	border-color: gray;
+	width: 300px;
+	height: 290px;
+	
+}
+
+a {
+	margin: 10px;
+	/* font-size: larger; */
+	text-decoration: none;
+	color: black;
+	line-height: 30px;
+	display: block;
+}
+
+.hvr:hover {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.kanan {
+	text-align: center;
+	margin: auto;
+}
+
+img {
+	width: 5pc;
+}
+
+h2 {
+	font-weight: lighter;
+}
+
+.kanan p {
+	color: red;
+}
+
+#ooo {
+	background-color: skyblue;
+	padding: 20px;
+	text-align: right;
+}
