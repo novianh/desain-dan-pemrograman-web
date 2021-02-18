@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>form</title>
+</head>
+
+<body>
+    <form>
+        <h1>Form Penjadwal Pertemuan</h1>
+        <fieldset>
+            <legend>Informasi Pribadi</legend>
+            <p><label>Nama <input type="text" name="nama" required></label></p>
+            <p><label>No.Telepon <input type="tel" name="telp" pattern="{0}{8}[0-9][0-9]-[0-9][0-9][0-9][0-9][0-9][0-9]"
+                        title="indonesia format: xxxx-xxxxxx" required></label></p>
+            <p><label>Alamat Email <input type="email" name="email"></label></p>
+            <p><label>Tanggal Lahir <input type="date" min="1987-01-01" max="1993-01-01"></label></p>
+        </fieldset>
+        <fieldset>
+            <legend>Permintaan Pertemuan</legend>
+            <p><label>Tujuan Pertemuan <input type="text"></label></p>
+            <p><label>Tingkat Kepentingan Pertemuan <input type="range" min="0" max="10"></label></p>
+            <p><label for="pertemuan">Tanggal <input type="date" min="2021-02-06"></label></p>
+            <p><label for="pertemuan">Waktu <input type="time" name="waktu" min="17.00" max="21.00"></label></p>
+        </fieldset>
+        <p><button type="submit">Submit</button></p>
+    </form>
+</body>
+
+</html>
